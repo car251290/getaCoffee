@@ -16,3 +16,11 @@ You may use the CLI in your terminal or use the web based interface (it opens au
 Installation
 
 npm install -g expo-cli
+
+# Using the IOS 
+iOS
+
+Open Project overview in the firebase console and click on the iOS icon or + button to Add Firebase to your iOS app.
+Make sure that the iOS bundle ID is the same as the value of ios.bundleIdentifier in your app.json.
+Register the app & download the config file by clicking "Download GoogleService-Info.plist" and drag the file into your Expo project folder.
+Add the relative path to the iOS GoogleService-Info.plist file to app.json.
