@@ -17,12 +17,18 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        
+        <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundimage}/>
+
         <Text style={styles.paragraph}>Time for a Coffee!</Text>
-        <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundImage}/>
+
+        <Image source={require('./Images/Coffee2020.png')}  style={styles.backgroundIcon}/>
+        
           <HomeView />
 
           <View >
-                    <Image source={backgroundImage} style={{ height :'100%', width: '100%' }} />
+         
+                   
                 </View>
 
       </View>
@@ -33,25 +39,35 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 3,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#9678b6',
+    backgroundColor: '#e5e5e5',
     
   },
-  backgroundImage:{
-    flex: .3,
+  backgroundimage:{
+    flex: 2,
     alignItems: 'center',
-    width:360,
-    height:800,
+    width:410,
+    height:920,
   },
   paragraph:{
     color:'#fff',fontSize:30,
      margin:60 ,  
+     alignItems: 'center',
      flex:.3,  
-     padding: 8,
+     padding: 4,
       fontWeight: 'bold'
   },
+  backgroundImage: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  backgroundIcon:{
+    alignItems: 'center',
+    width:190,
+    height:200,
+    marginBottom:70
+  }
   
-
 });
