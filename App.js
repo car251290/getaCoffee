@@ -1,8 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image,ImageBackground,paragraph } from 'react-native';
+import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions  } from 'react-native';
 import HomeView from './Component/HomeView/HomeView';
 import backgroundImage from './assets/coffee-background.jpg'; 
+import BUTTON from './Component/Button/BUTTON';
+import MapView from 'react-native-maps';
 //import { SearchBar } from 'react-native-elements';
+
+//apiKey= AIzaSyDB3HtXWB5fDJZqpR0p-h7qGCoc6rzHz5E
 
 export default class App extends React.Component {
   // the constructor for the props of the elements
@@ -11,7 +15,12 @@ export default class App extends React.Component {
   }
 
   handlePress = (props) => {
-
+      return(
+        <View style={styles.container}>
+        <MapView style={styles.mapStyle} />
+      </View>
+      );
+    
   }
 
   render() {
@@ -26,7 +35,7 @@ export default class App extends React.Component {
         
           <HomeView />
 
-          <View >
+          <View>
          
                    
                 </View>
@@ -68,6 +77,11 @@ const styles = StyleSheet.create({
     width:190,
     height:200,
     marginBottom:70
-  }
+  },
+
+  mapStyle: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
+  },
   
 });
