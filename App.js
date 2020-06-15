@@ -3,7 +3,9 @@ import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions  } f
 import HomeView from './Component/HomeView/HomeView';
 import backgroundImage from './assets/coffee-background.jpg'; 
 import BUTTON from './Component/Button/BUTTON';
+
 import MapView from 'react-native-maps';
+
 //import { SearchBar } from 'react-native-elements';
 
 //apiKey= AIzaSyDB3HtXWB5fDJZqpR0p-h7qGCoc6rzHz5E
@@ -29,7 +31,7 @@ export default class App extends React.Component {
         
         <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundimage}/>
 
-        <Text style={styles.paragraph}>Time for a Coffee!</Text>
+        <Text style={{color: '#fff',fontSize:40,flex: .5,}}>Time for a Coffee!</Text>
 
         <Image source={require('./Images/Coffee2020.png')}  style={styles.backgroundIcon}/>
         
@@ -60,23 +62,23 @@ const styles = StyleSheet.create({
     width:410,
     height:920,
   },
-  paragraph:{
-    color:'#fff',fontSize:30,
-     margin:60 ,  
-     alignItems: 'center',
-     flex:.3,  
-     padding: 4,
-      fontWeight: 'bold'
-  },
+  //paragraph:{
+   // color:'#fff',fontSize:30,
+  //   margin:60 ,  
+  //   alignItems: 'center',
+  //   flex:.3,  
+  //   padding: 4,
+  //    fontWeight: 'bold'
+  //},
   backgroundImage: {
     flex: 1,
     alignItems: 'center',
   },
   backgroundIcon:{
     alignItems: 'center',
-    width:190,
-    height:200,
-    marginBottom:70
+    width:200,
+    height:220,
+    marginBottom:50
   },
 
   mapStyle: {

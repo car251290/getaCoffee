@@ -3,14 +3,14 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 
 import BUTTON from '../Button/BUTTON';
 
+// function for making the button open the googleMaps
+
 
 const HomeView = (props) => {
   return (
   
     <View>
-      <BUTTON />
-     
-    
+      <BUTTON/>
     </View>
   )
 };
@@ -18,3 +18,4 @@ const HomeView = (props) => {
 
 
 export default HomeView;
+
