@@ -1,9 +1,12 @@
 # getaCoffee
 Seach for the location of a coffee store near you
+Using React Native with this project.
+this App will be available for Android and iOS.
 
 #Using expo and JS
 create an app that tell you the near coffee shop.
- 
+And show you the Website of a coffee shop!
+
  #Expo cli
  
  Expo CLI is a command line app that is the main interface between a developer and Expo tools. You'll use it for a variety of tasks, such as:
