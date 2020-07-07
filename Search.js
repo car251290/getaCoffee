@@ -1,21 +1,20 @@
 import React from 'react';
 import { StyleSheet, View, Search } from 'react-native';
+import * as React from 'react';
+import { Searchbar } from 'react-native-paper';
 
-const SEARCH =(props) => {
-    return(
-        <View style= {style.Search}>
-            <input className='Search'></input>
-        </View>
-    )
+const Searchbar = () => {
+  const [searchQuery, setSearchQuery] = React.useState('');
+
+  const onChangeSearch = query => setSearchQuery(query);
+
+  return (
+    <Searchbar
+      placeholder="Search"
+      onChangeText={onChangeSearch}
+      value={searchQuery}
+    />
+  );
 };
 
-const style = StyleSheet.create({
-    Search: {
-       
-       
-    }
-  });
-  
-  
-  
-  export default Search;
+export default Searchbar;
