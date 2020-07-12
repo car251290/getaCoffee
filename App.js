@@ -1,14 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions  } from 'react-native';
+import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions, SafeAreaView, ScrollView  } from 'react-native';
 import HomeView from './Component/HomeView/HomeView';
 import backgroundImage from './assets/coffee-background.jpg'; 
-import BUTTON from './Component/Button/BUTTON';
+import { Searchbar} from 'react-native-paper';
 
-import MapView from 'react-native-maps';
-
-//import { SearchBar } from 'react-native-elements';
-
-//apiKey= AIzaSyDB3HtXWB5fDJZqpR0p-h7qGCoc6rzHz5E
+//import MapView from 'react-native-maps';
+//import SafeAreaView from 'react-native-safe-area-view';
 
 export default class App extends React.Component {
   // the constructor for the props of the elements
@@ -19,30 +16,30 @@ export default class App extends React.Component {
   handlePress = (props) => {
       return(
         <View style={styles.container}>
-        <MapView style={styles.mapStyle} />
+        
       </View>
       );
     
   }
+ 
 
   render() {
     return (
-      <View style={styles.container}>
-        
+     
+      <SafeAreaView style={styles.container}>
+       
+       <Searchbar/>
+
         <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundimage}/>
-
-        <Text style={{color: '#fff',fontSize:40,flex: .5,}}>Time for a Coffee!</Text>
-
-        <Image source={require('./Images/Coffee2020.png')}  style={styles.backgroundIcon}/>
         
-          <HomeView />
+        <Text style={{color: '#fff',fontSize:50,flex: .5,alignContent:'center',borderColor:'black'}}>Time for a Coffee!</Text>
+        
+        <Image source={require('./Images/Coffee2020.png')}  style={styles.backgroundIcon}/>
+       
 
-          <View>
-         
-                   
-                </View>
-
-      </View>
+         <HomeView />
+      
+      </SafeAreaView>
       
     );
   }
@@ -56,34 +53,31 @@ const styles = StyleSheet.create({
     backgroundColor: '#e5e5e5',
     
   },
+  //the background image
   backgroundimage:{
     flex: 2,
     alignItems: 'center',
-    width:410,
-    height:920,
+    width:400,
+    height:620,
   },
-  //paragraph:{
-   // color:'#fff',fontSize:30,
-  //   margin:60 ,  
-  //   alignItems: 'center',
-  //   flex:.3,  
-  //   padding: 4,
-  //    fontWeight: 'bold'
-  //},
+  
   backgroundImage: {
     flex: 1,
     alignItems: 'center',
+    borderColor:'blue', 
+    width:400,
+    height:620,
   },
   backgroundIcon:{
     alignItems: 'center',
-    width:200,
-    height:220,
-    marginBottom:50
+    top:10,
+    width:220,
+    height:240,
+    marginBottom:20,
+    borderColor:'blue',
+   
+
   },
 
-  mapStyle: {
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height,
-  },
   
 });
