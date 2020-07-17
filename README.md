@@ -4,11 +4,11 @@ Using React Native with this project.
 and will use a map to get to near of the coffee shop.
 this App will be available for Android and iOS.
 
-#Using expo and JS
+# Using expo and JS
 create an app that tell you the near coffee shop.
 And show you the Website of a coffee shop!
 
- #Expo cli
+ # Expo cli
  
  Expo CLI is a command line app that is the main interface between a developer and Expo tools. You'll use it for a variety of tasks, such as:
 Creating new projects
@@ -21,10 +21,13 @@ Installation
 
 npm install -g expo-cli
 
-# Using the IOS 
-iOS
+# Using the iOS 
+iOS you will enjoying in iOS experincing with app
 
-Open Project overview in the firebase console and click on the iOS icon or + button to Add Firebase to your iOS app.
-Make sure that the iOS bundle ID is the same as the value of ios.bundleIdentifier in your app.json.
-Register the app & download the config file by clicking "Download GoogleService-Info.plist" and drag the file into your Expo project folder.
-Add the relative path to the iOS GoogleService-Info.plist file to app.json.
+ # Using in Android 
+ Also can be running in android experence.
+ 
+ # Making it easier to press the button
+ When you are using your finger to tap on a button, you don't want to have to hold for get to next screen and get the map to find the near coffee shop.
+ 
+ 
