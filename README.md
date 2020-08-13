@@ -33,4 +33,12 @@ iOS you will enjoying in iOS experincing with app
  ## Api map for search for a coffe
  I will use an Api of location for adding a map to get the nears coffee shop. 
  
+ ## Using of Card React Native
+ 
+ If you are using react-native version 0.60 or higher you don't need to link react-native-vector-icons.
+
+If you don't want to install vector icons, you can use babel-plugin-optional-require to opt-out.
+
+If you use Expo, you don't need to install vector icons. But if you have a babel.config.js or .babelrc file, make sure that it includes babel-preset-expo.
+ 
  
