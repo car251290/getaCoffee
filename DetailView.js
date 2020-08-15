@@ -2,10 +2,12 @@ import React from 'react';
 
 import BUTTON from '../Button/BUTTON';
 
-const DetailView = (props) => {
+const DetailView = () => {
     return (
         <View>
-            <text> Next View</text>
+            <Button>
+                Next View
+            </Button>
         </View>
 
 

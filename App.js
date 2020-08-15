@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions, SafeAreaView, ScrollView  } from 'react-native';
 import HomeView from './Component/HomeView/HomeView';
 import { Searchbar,Card} from 'react-native-paper';
-
+import DetailView from './Component/DetailView/DetailView'
 
 
 //import MapView from 'react-native-maps';
@@ -38,8 +38,10 @@ export default class App extends React.Component {
           <Image size={24} source={require('./Images/coffee-background.jpg')}  style={styles.backgroundIcon}/>
           
           <HomeView />
-         
+          
+          <DetailView />
       </SafeAreaView>
+      
       
     );
   }
