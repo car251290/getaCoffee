@@ -1,8 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions, SafeAreaView, ScrollView  } from 'react-native';
 import HomeView from './Component/HomeView/HomeView';
-import backgroundImage from './assets/coffee-background.jpg'; 
-import { Searchbar} from 'react-native-paper';
+import { Searchbar,Card} from 'react-native-paper';
+
+
 
 //import MapView from 'react-native-maps';
 //import SafeAreaView from 'react-native-safe-area-view';
@@ -33,12 +34,11 @@ export default class App extends React.Component {
         <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundimage}/>
         
         <Text style={{color: '#fff',fontSize:50,flex: .5,alignContent:'center',borderColor:'black'}}>Time for a Coffee!</Text>
-        
-        <Image source={require('./Images/Coffee2020.png')}  style={styles.backgroundIcon}/>
-       
 
-         <HomeView />
-      
+          <Image size={24} source={require('./Images/coffee-background.jpg')}  style={styles.backgroundIcon}/>
+          
+          <HomeView />
+         
       </SafeAreaView>
       
     );
@@ -75,9 +75,8 @@ const styles = StyleSheet.create({
     height:240,
     marginBottom:20,
     borderColor:'blue',
-   
-
   },
+  
 
   
 });
