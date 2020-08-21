@@ -29,17 +29,16 @@ export default class App extends React.Component {
      
       <SafeAreaView style={styles.container}>
        
-       <Searchbar/>
-
+      
         <Image source={require('./Images/thecoffee.jpg')}  style={styles.backgroundimage}/>
         
-        <Text style={{color: '#fff',fontSize:50,flex: .5,alignContent:'center',borderColor:'black'}}>Time for a Coffee!</Text>
+        <Text style={{color: '#fff',fontSize:50,flex: .7,alignContent:'center',borderColor:'black'}}>Time for a Coffee!</Text>
 
           <Image size={24} source={require('./Images/coffee-background.jpg')}  style={styles.backgroundIcon}/>
           
           <HomeView />
           
-          <DetailView />
+          
       </SafeAreaView>
       
       
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
     flex: 2,
     alignItems: 'center',
     width:400,
-    height:620,
+    height:630,
   },
   
   backgroundImage: {
@@ -72,7 +71,7 @@ const styles = StyleSheet.create({
   },
   backgroundIcon:{
     alignItems: 'center',
-    top:10,
+    top:50,
     width:220,
     height:240,
     marginBottom:20,

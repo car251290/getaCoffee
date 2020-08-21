@@ -12,15 +12,15 @@ const BUTTON = (props) => {
 
   return (
     <View style={ style.button }>
-       <Card.Actions>
+       
        <Button title = 'Get a Coffee'
 //onPress={()=>{ props.handlePress }}
-//onPress={() => {
-  //WebBrowser.openBrowserAsync('');
-//}} 
+onPress={() => {
+  WebBrowser.openBrowserAsync('https://www.google.com/maps/@49.2125932,-123.0931223,14z');
+}} 
 color='#FFF' Get a coffee /> 
  
-       </Card.Actions>
+      
     </View>
   )
 };
@@ -28,13 +28,14 @@ color='#FFF' Get a coffee />
 const style = StyleSheet.create({
   button: {
     flex:0.2,
-    marginTop:50,
+    marginTop:90,
     alignItems: 'center',
-    color:'#fff',fontSize:30,
+    color:'#fff',fontSize:40,
     backgroundColor: '#a9a9a9',
     padding: 1,
     width: 200,
-    height: 600,
+    height: 700,
+    borderBottomWidth: StyleSheet.hairlineWidth,
   }, 
 });
 
