@@ -30,8 +30,16 @@ iOS you will enjoying in iOS experincing with app
  # Making it easier to press the button
  When you are using your finger to tap on a button, you don't want to have to hold for get to next screen and get the map to find the near coffee shop.
  
- ## Api map for search for a coffe
- I will use an Api of location for adding a map to get the nears coffee shop. 
+ ## API map for search for a coffe
+ I will use an API of location for adding a map to get the nears coffee shop. 
+ 
+ ## Use the firebase
+ Using this API will get the location of the near coffee shop, as well as the shortest way to get there.
+ https://firebase.google.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTld8Ill27VPmjHenCTrduLbrdclqXsCotwJ_WMKoRe2G1TOpAyFH8hoCumEQAvD_BwE
+ 
+ ## Hooks 
+ I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
+ Motivitation is getting better code understandable code.
  
  ## Using of Card React Native
  
