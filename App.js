@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect}from "react";
 import { StyleSheet, Text, View, Image,ImageBackground,paragraph,Dimensions, SafeAreaView, ScrollView  } from 'react-native';
 import HomeView from './Component/HomeView/HomeView';
 import { Searchbar,Card} from 'react-native-paper';
@@ -10,9 +10,7 @@ import DetailView from './Component/DetailView/DetailView'
 
 export default class App extends React.Component {
   // the constructor for the props of the elements
-  constructor(props) {
-    super(props);
-  }
+  
 
   handlePress = (props) => {
       return(
