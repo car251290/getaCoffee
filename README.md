@@ -7,6 +7,11 @@ this App will be available for Android and iOS.
 # Using expo and JS
 create an app that tell you the near coffee shop.
 And show you the Website of a coffee shop!
+When using React Native, you're going to be running your JavaScript code in two environments:
+
+In most cases, React Native will use JavaScriptCore, the JavaScript engine that powers Safari. Note that on iOS, JavaScriptCore does not use JIT due to the absence of writable executable memory in iOS apps.
+When using Chrome debugging, all JavaScript code runs within Chrome itself, communicating with native code via WebSockets. Chrome uses V8 as its JavaScript engine.
+While both environments are very similar, you may end up hitting some inconsistencies. We're likely going to experiment with other JavaScript engines in the future, so it's best to avoid relying on specifics of any runtime.
 
  # Expo cli
  
