@@ -42,6 +42,12 @@ iOS you will enjoying in iOS experincing with app
  Using this API will get the location of the near coffee shop, as well as the shortest way to get there.
  https://firebase.google.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTld8Ill27VPmjHenCTrduLbrdclqXsCotwJ_WMKoRe2G1TOpAyFH8hoCumEQAvD_BwE
  
+ Adding Firebase
+
+To add Firebase to our existing React Native application, we need to install the dependency.
+
+yarn add firebase
+ 
  ## Hooks 
  I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
  Motivitation is getting better code understandable code.
