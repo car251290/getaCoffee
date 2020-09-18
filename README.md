@@ -1,7 +1,7 @@
 # getaCoffee
 Seach for the location of a coffee store near you
 Using React Native with this project.
-and will use a map to get to near of the coffee shop.
+and will use google map to get to near of the coffee shop.
 this App will be available for Android and iOS.
 
 # Using expo and JS
