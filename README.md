@@ -51,6 +51,7 @@ yarn add firebase
  ## Hooks 
  I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
  Motivitation is getting better code understandable code.
+ To solve this, Hooks let you split one component into smaller functions based on what pieces are related (such as setting up a subscription or fetching data
  ## React Navigation 
  
  npm install @react-navigation/native
