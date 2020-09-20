@@ -51,6 +51,10 @@ yarn add firebase
  ## Hooks 
  I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
  Motivitation is getting better code understandable code.
+ ## React Navigation 
+ 
+ npm install @react-navigation/native
+React Navigation is made up of some core utilities and those are then used by navigators to create the navigation structure in your app. Don't worry too much about this for now, it'll become clear soon enough! To frontload the installation work, let's also install and configure dependencies used by most navigators, then we can move forward with starting to write some code.
  
  ## Using of Card React Native
  
