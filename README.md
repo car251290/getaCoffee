@@ -64,5 +64,10 @@ React Navigation is made up of some core utilities and those are then used by na
 If you don't want to install vector icons, you can use babel-plugin-optional-require to opt-out.
 
 If you use Expo, you don't need to install vector icons. But if you have a babel.config.js or .babelrc file, make sure that it includes babel-preset-expo.
+
+## Native to style the button
+Button
+Button is a pure NativeBase component.
+Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
  
  
