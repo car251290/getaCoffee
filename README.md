@@ -4,6 +4,10 @@ Using React Native with this project.
 and will use google map to get to near of the coffee shop.
 this App will be available for Android and iOS.
 
+## getting a tab for this app
+Using bottom app bars
+Bottom app bars group primary and secondary actions at the bottom of the screen, where they are easily reachable by the user's thumb.
+
 # Using React Native and JS
 create an app that tell you the near coffee shop.
 And show you the Website of a coffee shop!
