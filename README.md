@@ -57,6 +57,7 @@ yarn add firebase
  I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
  Motivitation is getting better code understandable code.
  To solve this, Hooks let you split one component into smaller functions based on what pieces are related (such as setting up a subscription or fetching data
+ 
  ## React Navigation 
  
  npm install @react-navigation/native
@@ -71,8 +72,8 @@ If you don't want to install vector icons, you can use babel-plugin-optional-req
 If you use Expo, you don't need to install vector icons. But if you have a babel.config.js or .babelrc file, make sure that it includes babel-preset-expo.
 
 ## Native to style the button
-Button
-Button is a pure NativeBase component.
-Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
+## Button
+## Button is a pure NativeBase component.
+## Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
  
  
