@@ -53,4 +53,8 @@ If you use Expo, you don't need to install vector icons. But if you have a babel
 ## Button is a pure NativeBase component.
 ## Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
  
+ * React.js
+ * JavaScript
+ * Node.js
+ * Express
  
