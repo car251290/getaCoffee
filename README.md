@@ -8,12 +8,6 @@ this App will be available for Android and iOS.
 Using bottom app bars
 Bottom app bars group primary and secondary actions at the bottom of the screen, where they are easily reachable by the user's thumb.
 https://material.io/develop/ios/components/bottomappbar
-
-# Using the iOS 
-iOS you will enjoying in iOS experincing with app
-
- # Using in Android 
- Also can be running in android experence.
  
  # Making it easier to press the button
  When you are using your finger to tap on a button, you don't want to have to hold for get to next screen and get the map to find the near coffee shop.
@@ -54,8 +48,7 @@ If you use Expo, you don't need to install vector icons. But if you have a babel
 * Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as * showing or hiding something in an app on click of the button, etc.
 
  ## Tools I use in this project.
- * React.js
+ * React native
  * JavaScript
- * Node.js
- * Express
+
  
