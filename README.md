@@ -31,10 +31,10 @@ yarn add firebase
  To solve this, Hooks let you split one component into smaller functions based on what pieces are related (such as setting up a subscription or fetching data
  
  ## React Navigation 
- 
+ React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. 
  npm install @react-navigation/native
 React Navigation is made up of some core utilities and those are then used by navigators to create the navigation structure in your app. Don't worry too much about this for now, it'll become clear soon enough! To frontload the installation work, let's also install and configure dependencies used by most navigators, then we can move forward with starting to write some code.
- 
+  
  ## Using of Card React Native
  
  If you are using react-native version 0.60 or higher you don't need to link react-native-vector-icons.
