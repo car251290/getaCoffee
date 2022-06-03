@@ -50,5 +50,7 @@ If you use Expo, you don't need to install vector icons. But if you have a babel
  ## Tools I use in this project.
  * React native
  * JavaScript
+ * Google maps
+ * Hooks
 
  
