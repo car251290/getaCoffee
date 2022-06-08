@@ -24,6 +24,13 @@ https://material.io/develop/ios/components/bottomappbar
 To add Firebase to our existing React Native application, we need to install the dependency.
 
 yarn add firebase
+
+Generating iOS credentials
+On the Firebase console, add a new iOS application and enter your projects details. The "iOS bundle ID" must match your local project bundle ID. The bundle ID can be found within the "General" tab when opening the project with Xcode.
+
+Download the GoogleService-Info.plist file.
+
+Using Xcode, open the projects /ios/{projectName}.xcodeproj file (or /ios/{projectName}.xcworkspace if using Pods).
  
  ## Hooks 
  I will apply the new knowledge of hooks useState for fetch the URL and the API currently using in this mobile App.
